@@ -61,7 +61,7 @@ J=3.2284e-6
 B=3.5077e-6
 Rf=4
 Lf=2.75e-6
-s=tf('S')
+s=tf('s')
 ol_sys=Kt/((J*s*s+B*s)*(Rf+Lf*s))
 subplot(2,1,1)
 step(ol_sys)
